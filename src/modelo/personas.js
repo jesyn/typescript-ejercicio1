@@ -1,1 +1,1 @@
-export const personas = ["Ash", "Misty", "Brook", "Oak"]
+export const personas = ["Ash", "Misty", "Brook", "Oak"];
