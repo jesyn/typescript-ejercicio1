@@ -12,8 +12,10 @@ function App() {
     <div className="App">
         <div>
             <h3>Personas</h3>
-            {personas.map(persona => {return (
-              <div key={persona}>{persona}</div>
+            {personas.map((persona,index) => {return (
+              <>
+              <div key={index}>{persona}</div>
+              </>
             )}) }
         </div>
         <div>
