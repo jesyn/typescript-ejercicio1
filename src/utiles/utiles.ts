@@ -1,4 +1,4 @@
-export const quienEsMayor = (nombre1, edad1, nombre2, edad2) => {
+export const quienEsMayor = (nombre1:string, edad1:number, nombre2:string, edad2:number) => {
     if (edad1 > edad2) {
         return `${nombre1} es mayor que ${nombre2}`;
     }else if(edad1 < edad2){
